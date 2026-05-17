@@ -3,7 +3,7 @@ import { CgArrowDownO } from 'react-icons/cg';
 import { FaArrowRight } from 'react-icons/fa';
 import { useNavigate } from "react-router-dom";
 import { HiAcademicCap } from "react-icons/hi2";
-
+import profilePic from '../assets/profilepic.jpeg';
 
 export function Home() {
     const [isNotMobile, setIsNotMobile] = useState(window.innerWidth >= 768);
@@ -73,7 +73,7 @@ export function Home() {
                     <div className="relative">
                     <div className="absolute inset-0 rounded-full bg-gradient-to-r from-sky-500 via-blue-500 to-indigo-500 blur-xl opacity-60">  
                     </div>
-                        <img src="../src/assets/profilepic.jpeg" alt="alt" 
+                        <img src={profilePic} alt="alt" 
                             className="relative rounded-full w-45">
                         </img>        
                     </div>

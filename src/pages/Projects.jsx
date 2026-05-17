@@ -3,6 +3,10 @@ import { FaGithub } from "react-icons/fa";
 import { CiGlobe } from "react-icons/ci";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
+import aiInterviewer from '../assets/ai_interviewer_landing.png';
+import resellIQ from '../assets/reselliq.png';
+import speechMatch from '../assets/SpeechMatchLogo.png';
+import travelAgent from '../assets/travelagent.png';
 
 
 export function Projects() {
@@ -23,7 +27,7 @@ export function Projects() {
                 <div className="max-w-5xl mx-auto px-6 mt-20 flex gap-10">
                     <div className="flex-1">
                         <div className="rounded-lg shadow-md py-3 hover:shadow-xl hover:shadow-blue-500/20 transition-shadow duration-300">
-                            <img src="../src/assets/ai_interviewer_landing.png" alt="alt" className="rounded h-57 w-full"></img>
+                            <img src={aiInterviewer} alt="alt" className="rounded h-57 w-full"></img>
                             <div className="px-3">
                                 <h3 className="font-semibold mt-5 tracking-wide ">AI Interviewer</h3>
                                 {exp1 ? (
@@ -66,7 +70,7 @@ export function Projects() {
                     </div>
                     <div className="flex-1">
                         <div className="rounded-lg shadow-md py-3 hover:shadow-xl hover:shadow-blue-500/20 transition-shadow duration-300">
-                            <img src="../src/assets/SpeechMatchLogo.png" alt="alt" className="rounded h-57 w-full object-contain"></img>
+                            <img src={speechMatch} alt="alt" className="rounded h-57 w-full object-contain"></img>
                             <div className="px-3">
                                 <h3 className="font-semibold mt-5 tracking-wide ">SpeechMatch</h3>
                                 {exp2 ? (
@@ -106,7 +110,7 @@ export function Projects() {
                     </div>
                     <div className="flex-1">
                         <div className="rounded-lg shadow-md py-3 hover:shadow-xl hover:shadow-blue-500/20 transition-shadow duration-300">
-                            <img src="../src/assets/travelagent.png" alt="alt" className="rounded h-57 w-full object-contain"></img>
+                            <img src={travelAgent} alt="alt" className="rounded h-57 w-full object-contain"></img>
                             <div className="px-3">
                                 <h3 className="font-semibold mt-5 tracking-wide ">Travel Agent AI</h3>
                                 {exp3 ? (
@@ -147,7 +151,7 @@ export function Projects() {
                 <div className="max-w-5xl mx-auto px-6 mt-10 flex gap-10 mb-20">
                     <div className="flex-1">
                         <div className="rounded-lg shadow-md py-3 hover:shadow-xl hover:shadow-blue-500/20 transition-shadow duration-300 w-74">
-                            <img src="../src/assets/reselliq.png" alt="alt" className="rounded h-57 w-full object-contain"></img>
+                            <img src={resellIQ} alt="alt" className="rounded h-57 w-full object-contain"></img>
                             <div className="px-3">
                                 <h3 className="font-semibold mt-5 tracking-wide ">ResellIQ</h3>
                                 {exp4 ? (

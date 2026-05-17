@@ -1,5 +1,6 @@
 import { GoDotFill } from "react-icons/go";
-
+import uwm from '../assets/uwm.png';
+import pma from '../assets/pma.png';
 
 export function Experience() {
 
@@ -14,7 +15,7 @@ export function Experience() {
 
                     <div className="bg-white w-full max-w-3xl sm:h-80 rounded-md py-5 px-4 shadow-sm">
                         <div className="flex gap-2">
-                            <img src="../src/assets/uwm.png" alt="" className="w-8 sm:w-10"></img>
+                            <img src={uwm} alt="" className="w-8 sm:w-10"></img>
                             <span className="font-medium">United Wholesale Mortgage</span>
                         </div>
                         <div className="flex gap-2 sm:gap-4 max-[391px]:text-[0.68rem] text-sm text-gray-400 ml-10 sm:ml-12 -translate-y-2 sm:-translate-y-4 ">
@@ -50,7 +51,7 @@ export function Experience() {
 
                     <div className="bg-white w-full max-w-3xl sm:h-80 rounded-md py-5 px-4 shadow-sm mt-8">
                         <div className="flex gap-2">
-                            <img src="../src/assets/pma.png" alt="" className="w-9 translate-y-2"></img>
+                            <img src={pma} alt="" className="w-9 translate-y-2"></img>
                             <span className="font-medium">Product Manager Accelerator</span>
                         </div>
                         <div className="flex gap-4 max-[391px]:text-[0.68rem] text-sm text-gray-400 ml-11">
