@@ -24,10 +24,10 @@ export function Projects() {
                     <p className="text-gray-500 mt-3 text-sm">A selection of things I've built or contributed to</p>
                 </div>
 
-                <div className="max-w-5xl mx-auto px-6 mt-20 flex gap-10">
-                    <div className="flex-1">
+                <div className="max-w-5xl mx-auto px-6 mt-5 sm:mt-20 sm:flex gap-10">
+                    <div className="flex-1 mb-10 sm:mb-0">
                         <div className="rounded-lg shadow-md py-3 hover:shadow-xl hover:shadow-blue-500/20 transition-shadow duration-300">
-                            <img src={aiInterviewer} alt="alt" className="rounded h-57 w-full"></img>
+                            <img src={aiInterviewer} alt="alt" className="rounded h-72 sm:h-57 w-full"></img>
                             <div className="px-3">
                                 <h3 className="font-semibold mt-5 tracking-wide ">AI Interviewer</h3>
                                 {exp1 ? (
@@ -68,9 +68,9 @@ export function Projects() {
                             </div>
                         </div>
                     </div>
-                    <div className="flex-1">
+                    <div className="flex-1 mb-10 sm:mb-0">
                         <div className="rounded-lg shadow-md py-3 hover:shadow-xl hover:shadow-blue-500/20 transition-shadow duration-300">
-                            <img src={speechMatch} alt="alt" className="rounded h-57 w-full object-contain"></img>
+                            <img src={speechMatch} alt="alt" className="rounded h-72 sm:h-57 w-full object-contain"></img>
                             <div className="px-3">
                                 <h3 className="font-semibold mt-5 tracking-wide ">SpeechMatch</h3>
                                 {exp2 ? (
@@ -108,9 +108,9 @@ export function Projects() {
                             </div>
                         </div>
                     </div>
-                    <div className="flex-1">
+                    <div className="flex-1 mb-10 sm:mb-0">
                         <div className="rounded-lg shadow-md py-3 hover:shadow-xl hover:shadow-blue-500/20 transition-shadow duration-300">
-                            <img src={travelAgent} alt="alt" className="rounded h-57 w-full object-contain"></img>
+                            <img src={travelAgent} alt="alt" className="rounded h-72 sm:h-57 w-full object-contain"></img>
                             <div className="px-3">
                                 <h3 className="font-semibold mt-5 tracking-wide ">Travel Agent AI</h3>
                                 {exp3 ? (
@@ -149,9 +149,9 @@ export function Projects() {
                     </div>
                 </div>
                 <div className="max-w-5xl mx-auto px-6 mt-10 flex gap-10 mb-20">
-                    <div className="flex-1">
-                        <div className="rounded-lg shadow-md py-3 hover:shadow-xl hover:shadow-blue-500/20 transition-shadow duration-300 w-74">
-                            <img src={resellIQ} alt="alt" className="rounded h-57 w-full object-contain"></img>
+                    <div className="flex-1 mb-10 sm:mb-0">
+                        <div className="rounded-lg shadow-md py-3 hover:shadow-xl hover:shadow-blue-500/20 transition-shadow duration-300 sm:w-74">
+                            <img src={resellIQ} alt="alt" className="rounded h-72 sm:h-57 w-full object-contain"></img>
                             <div className="px-3">
                                 <h3 className="font-semibold mt-5 tracking-wide ">ResellIQ</h3>
                                 {exp4 ? (
