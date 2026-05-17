@@ -1,20 +1,34 @@
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import { RiHomeSmileLine, RiMenuLine, RiCloseLine } from 'react-icons/ri';
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export function Nav() {
     const navigate = useNavigate();
     const [isOpen, setIsOpen] = useState(false);
+    const [homeDivClass, setHomeDivClass] = useState("flex hover:cursor-pointer 2xl:-ml-30");
+    const [homeButtonClass, setHomeButtonClass] = useState("text-xl hover:cursor-pointer hover:bg-slate-200/55 rounded-lg px-1 py-1 mr-1");
     const experienceRoute = "/experience";
     const projectsRoute = '/projects';
     const contactRoute = '/contact';
+    const location = useLocation();
+
+    useEffect(() => {
+        if (location.pathname == '/') {
+            setHomeDivClass("flex 2xl:-ml-30")
+            setHomeButtonClass("text-xl rounded-lg px-1 py-1 bg-blue-400/50 shadow-sm shadow-blue-500 mr-1")
+        } else {
+            
+            setHomeDivClass("flex hover:cursor-pointer 2xl:-ml-30")
+            setHomeButtonClass("text-xl hover:cursor-pointer hover:bg-slate-200/55 rounded-lg px-1 py-1 mr-1")
+        }
+    }, [navigate])
 
     return (
     <>
         <header className="sticky top-0 z-50 bg-white">
         <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between p-2 lg:px-8">
-            <div className="flex hover:cursor-pointer 2xl:-ml-30" onClick={() => navigate('/')}>
-                <button className="text-xl hover:cursor-pointer hover:bg-slate-200/55 rounded-lg px-1 py-1"><RiHomeSmileLine /></button>
+            <div className={homeDivClass} onClick={() => navigate('/')}>               
+                <button className={homeButtonClass}><RiHomeSmileLine /></button>
                 <a className="hidden md:block font-semibold py-1 ">Ariq Chowdhury</a>
             </div>
             <div className="flex flex-1 items-center justify-center sm:items-stretch py-2">

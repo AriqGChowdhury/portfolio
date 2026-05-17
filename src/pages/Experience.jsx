@@ -30,12 +30,12 @@ export function Experience() {
                                 <span className="mr-2 sm:mr-0 sm:w-50 text-center font-medium text-sm sm:text-lg">
                                     Software Engineer Intern
                                 </span>
-                                <p className="mt-2 sm:mt-4 text-[0.65rem] sm:text-sm text-gray-400">
+                                <div className="mt-2 sm:mt-4 text-[0.65rem] sm:text-sm text-gray-400">
                                     <div className="flex items-center gap-2">
                                         <GoDotFill className="text-xs"/>
                                         <span>Selected For 2026 Summer Internship</span>
                                     </div>
-                                </p>
+                                </div>
                                 
                                 <div className="flex mt-5 gap-4 ">
                                     <span className="bg-yellow-200/30 py-1 px-2 text-[0.65rem] sm:text-xs rounded-lg text-yellow-600">REST APIs</span>
@@ -66,18 +66,18 @@ export function Experience() {
                                 <span className="ml-2 sm:ml-0 sm:w-50 text-center font-medium text-sm sm:text-lg">
                                     AI Backend Engineer Intern
                                 </span>
-                                <p className="mt-2 sm:mt-4 text-[0.65rem] sm:text-sm text-gray-400">
+                                <div className="mt-2 sm:mt-4 text-[0.65rem] sm:text-sm text-gray-400">
                                     <div className="flex gap-2">
                                         <GoDotFill className="text-xl sm:text-base"/>
                                         <span>Built ArtMatchAI, an AI web app that redesigns rooms using image inpainting based on user input.</span>
                                     </div>
-                                </p>
-                                <p className="mt-2 sm:mt-4 text-[0.65rem] sm:text-sm text-gray-400">
+                                </div>
+                                <div className="mt-2 sm:mt-4 text-[0.65rem] sm:text-sm text-gray-400">
                                     <div className="flex gap-2">
                                         <GoDotFill className="text-4xl sm:text-2xl"/>
                                         <span>Integrated LLMs and computer vision models to interpret user instructions and update room visuals; won 2nd place in company-wide innovation competition.</span> 
                                     </div>
-                                </p>
+                                </div>
                                 <div className="flex mt-5 gap-2 sm:gap-4">
                                     <span className="whitespace-nowrap bg-yellow-200/30 py-1 px-2 text-[0.65rem] sm:text-xs rounded-lg text-yellow-600">REST APIs</span>
                                     <span className="bg-blue-200/30 py-1 px-2 text-[0.65rem] sm:text-xs rounded-lg text-blue-600">PyTorch</span>
