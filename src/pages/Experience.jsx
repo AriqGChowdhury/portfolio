@@ -34,7 +34,6 @@ export function Experience() {
                                     <div className="flex items-center gap-2">
                                         <GoDotFill className="text-xs"/>
                                         <span>Develop and maintain internal software applications that underwriters use to support mortgage processing workflows. </span>
-                                        <span>Collaborate with product owners, developers, and business stakeholders in an Agile environment, participating in requirements gathering, sprint planning, and code reviews.</span>
                                     </div>
                                 </div>
                                 
