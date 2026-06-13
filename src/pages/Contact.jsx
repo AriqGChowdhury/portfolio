@@ -103,7 +103,7 @@ export function Contact() {
                                 </div>
                                 
                                 <div className="flex gap-1 items-center hover:cursor-pointer py-2 px-3 bg-gray-100 rounded-lg text-sm mt-4 hover:bg-gray-200/70">
-                                    <a href="mailto:ariq922@hotmail.com"> Email</a>
+                                    <a href="mailto:ariqgchowdhury@gmail.com"> Email</a>
                                     <TfiEmail className="text-blue-500"/>
                                 </div>
                                 <div className="flex gap-1 items-center hover:cursor-pointer py-2 px-3 bg-gray-100 rounded-lg text-sm mt-4 hover:bg-gray-200/70">

@@ -15,7 +15,7 @@ export function Footer() {
            
             <div className="flex items-center space-x-4 hover:cursor-pointer text-lg sm:mr-20">
                 <a href="https://linkedin.com/in/ariqchowdhury123"><RiLinkedinLine /></a>
-                <a href="mailto:ariq922@hotmail.com"><TfiEmail /></a>
+                <a href="mailto:ariqgchowdhury@gmail.com"><TfiEmail /></a>
                 <a href="https://github.com/AriqGChowdhury"><RiGithubFill /></a>
                 <a className="mr-5" href="/contact"><RiPhoneLine /></a>
             </div>
