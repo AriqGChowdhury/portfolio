@@ -33,7 +33,8 @@ export function Experience() {
                                 <div className="mt-2 sm:mt-4 text-[0.65rem] sm:text-sm text-gray-400">
                                     <div className="flex items-center gap-2">
                                         <GoDotFill className="text-xs"/>
-                                        <span>Selected For 2026 Summer Internship</span>
+                                        <span>Develop and maintain internal software applications that underwriters use to support mortgage processing workflows. </span>
+                                        <span>Collaborate with product owners, developers, and business stakeholders in an Agile environment, participating in requirements gathering, sprint planning, and code reviews.</span>
                                     </div>
                                 </div>
                                 
