@@ -32,8 +32,14 @@ export function Experience() {
                                 </span>
                                 <div className="mt-2 sm:mt-4 text-[0.65rem] sm:text-sm text-gray-400">
                                     <div className="flex items-center gap-2">
-                                        <GoDotFill className="text-xs"/>
-                                        <span>Develop and maintain internal software applications that underwriters use to support mortgage processing workflows. </span>
+                                        <GoDotFill className="text-3xl"/>
+                                        <span>Develop and maintain internal software applications used by 2,000+ underwriters to support mortgage processing and underwriting workflows across the mortgage lifecycle.  </span>
+                                    </div>
+                                </div>
+                                <div className="mt-2 sm:mt-4 text-[0.65rem] sm:text-sm text-gray-400">
+                                    <div className="flex items-center gap-2">
+                                        <GoDotFill className="text-2xl"/>
+                                        <span>Implement new features, troubleshoot defects, and contribute to software enhancements within an Agile/Kanban development environment. </span>
                                     </div>
                                 </div>
                                 
@@ -68,14 +74,14 @@ export function Experience() {
                                 </span>
                                 <div className="mt-2 sm:mt-4 text-[0.65rem] sm:text-sm text-gray-400">
                                     <div className="flex gap-2">
-                                        <GoDotFill className="text-xl sm:text-base"/>
-                                        <span>Built ArtMatchAI, an AI web app that redesigns rooms using image inpainting based on user input.</span>
+                                        <GoDotFill className="text-xl sm:text-2xl"/>
+                                        <span>Built ArtMatchAI, an AI-powered web application that redesigns rooms using image inpainting and natural language user input.</span>
                                     </div>
                                 </div>
                                 <div className="mt-2 sm:mt-4 text-[0.65rem] sm:text-sm text-gray-400">
                                     <div className="flex gap-2">
-                                        <GoDotFill className="text-4xl sm:text-2xl"/>
-                                        <span>Integrated LLMs and computer vision models to interpret user instructions and update room visuals; won 2nd place in company-wide innovation competition.</span> 
+                                        <GoDotFill className="text-4xl sm:text-3xl"/>
+                                        <span>Integrated LLMs, computer vision models, and image processing pipelines to generate personalized room redesigns; earned 2nd place in a company-wide innovation competition.</span> 
                                     </div>
                                 </div>
                                 <div className="flex mt-5 gap-2 sm:gap-4">
